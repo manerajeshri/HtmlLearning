@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+
+    <!-- CDN link for font awsome icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+<br>
+<hr>
+<h3> Assignment : 08 Feedback form</h3>
+<h4 style="text-align: center; color: blue;">Feedback form</h4>
+
+<form>
+<table>
+    <tr>
+        <td ><label for="fullName">Full Name : </label></td>
+        <td><input id="fullName" type="text" autofocus></td>
+    </tr>
+
+    <tr>
+        <td><label for="Age">Age : </label></td>
+        <td><input id="Age" type="number"></td>
+    </tr>
+
+    <tr>
+        <td><label for="Mobile">Mobile : </label></td>
+        <td><input id="Mobile" type="number" required></td>
+    </tr>
+
+    <tr>
+        <td><label for="Email">Email : </label></td>
+        <td><input id="Email" type="email" placeholder="Ex.abc@gmail.com"></td>
+    </tr>
+
+    <tr>
+        <td><label for="qualification">Qualification : </label></td>
+        <td><input id="qualification" type="text"></td>
+    </tr>
+
+    <tr>
+        <td><label for="feedback">Feedback : </label></td>
+        <td><input id="feedback" type="text" maxlength="250" max="250"></td>
+    </tr>
+</table>
+<br> &nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="reset"/>
+</form>
+
+<!-- =============================================================================================== -->
+<br>
+<hr>
+<h3> Assignment : 09 Student registration form</h3>
+<h4 style="text-align: center; color: blue;">Student registration form</h4>
+<form>
+    <table>
+        <tr>
+            <td><label>First Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Last Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Email Address</label></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><label>Graduation</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Pass Out Year</label></td>
+            <td><input type="date"></td>
+            <!-- for only month and yesr -->
+            <td><input type="month"></td>
+        </tr>
+        <tr>
+            <td><label>Permanent Address</label></td>
+            <td><input type="text"></td>
+        </tr>
+             
+    </table>
+</form>
+<br>
+            <b>SSO sign in Options</b> &nbsp;&nbsp;
+            &nbsp;&nbsp;    <a href="https://www.google.com/" target="_blank"><i class="fa fa-google" aria-hidden="true"></i></a>
+            &nbsp;&nbsp;    <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+            &nbsp;&nbsp;    <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            
+   
+<!-- =============================================================================================== -->
+<br>
+<hr>
+<h3> Assignment : 10 Student registration form</h3>
+<h4 style="text-align: center; color: blue;">Student registration form</h4>
+
+<form>
+    <table>
+        <tr>
+            <td><label>First Name</label></td>
+            <td><input type="text" placeholder="Only First Name" 
+                        required autofocus maxlength="15"></td>
+        </tr>
+        <tr>
+            <td><label>Last Name</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label>Mobile Number</label></td>
+            <td><input type="number" placeholder="Please Enter with country"></td>
+        </tr>
+        <tr>
+            <td><label>Email Address</label></td>
+            <td><input type="email" placeholder="Example:abc@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label>Password</label></td>
+            <td><input type="password"></td>
+        </tr>
+        <tr>
+            <td><label>Country</label></td>
+            <td><input type="text" value="India">value="India"</td>
+        </tr>
+        <tr>
+            <td><label> State </label></td>
+            <td><input type="text" value="MH" readonly />* value="MH" readonly </td>
+          </tr>
+        <tr>
+            <td><label>Do you have Bank Account</label></td>
+            <td><input type="text" value="YES" disabled>*value="YES" disabled</td>
+        </tr>
+        <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Available in week</label></td>
+            <td><input type="week"></td>
+        </tr>
+        <tr>
+            <td><label>Preferred Time</label></td>
+            <td><input type="time"></td>
+        </tr>
+        <tr>
+            <td><label>Select Profile Photo</label></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><label>Select Certificate</label></td>
+            <td><input type="file" multiple>*type="file" multiple</td>
+        </tr>
+        <tr>
+            <td><label>Select Graduation</label></td>
+            <td>
+                <select>
+                    <option>BE</option>
+                    <option>BTech</option>
+                    <option>ME</option>
+                    <option>MTech</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Select Gender</label></td>
+            <td><input type="radio" name="gender"> <label for="gender">Male</label>
+                <input type="radio" name="gender"> <label for="gender">Female</label>
+                <input type="radio" name="gender"> <label for="gender">Other</label></td>
+        </tr>
+        <tr>
+            <td><label>Please Select Trainings</label></td>
+            <td>
+                <input type="checkbox" id="Angular"><label for="Angular">Angular</label>
+                <input type="checkbox" id="Java"><label for="Java">Java</label>
+                <input type="checkbox" id=".Net"><label for=".Net">.Net</label>
+                <input type="checkbox" id="DevOps"><label for="DevOps">DevOps</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Address</label></td>
+            <td><textarea rows="7" cols="30"></textarea>*textarea rows="7" cols="30"</td>
+        </tr>
+    </table>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="submit"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <input type="reset">
+</form>
+
+<!-- =============================================================================================== -->
+<br>
+<hr>
+<h3> Assignment : 11 Employee Application form with Validations</h3>
+<h4 style="text-align: center; color: blue;">Employee Application form with Validations</h4>
+
+<form>
+    <table>
+        <tr>
+            <td><label for="fName">Full Name</label></td>
+            <td><input id="fName" type="text"
+                autofocus required maxlength="40"></td>
+        </tr>
+        <tr>
+            <td><label for="email">Email Address</label></td>
+            <td><input id="email" type="email"
+                 required placeholder="Ex.abc@gmail.com"></td>
+        </tr>
+        <tr>
+            <td><label for="password">Password</label></td>
+            <td><input id="password" type="password"
+                 required ></td>
+        </tr>
+        <tr>
+            <td><label>Contact Number</label></td>
+            <td><input type="number" required></td>
+        </tr>
+        <tr>
+            <td><label>Profile Photo</label></td>
+            <td><input type="file"></td>
+        </tr>
+        <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="date"></td>
+        </tr>
+        <tr>
+            <td><label>Gender</label></td>
+            <td><input type="radio" name="gender"> <label for="gender">Male</label>
+                <input type="radio" name="gender"> <label for="gender">Female</label></td>
+        </tr>
+        <tr>
+            <td><label>Marital Status</label></td>
+            <td><input type="radio" name="maritalStatus"> <label for="maritalStatus">Yes</label>
+                <input type="radio" name="maritalStatus"> <label for="maritalStatus">No</label></td>
+        </tr>
+        <tr>
+            <td><label>Known Tools & Technology</label></td>
+            <td><input type="checkbox" id="Angular">    <label for="Angular">Angular</label>
+            <input type="checkbox" id="React">      <label for="React">React</label>
+            <input type="checkbox" id="Python">     <label for="Python">Python</label>
+            <input type="checkbox" id="Java">       <label for="Java">Java</label>
+            <input type="checkbox" id="JenKin">     <label for="JenKin">JenKin</label>
+            <input type="checkbox" id="GIT">        <label for="GIT">GIT</label>
+            <input type="checkbox" id="Database">   <label for="Database">Database</label></td>
+        </tr>
+        <tr>
+            <td><label>Profile</label></td>
+            <td>
+                <select>
+                    <option>UI Developer</option>
+                    <option>Backend Developer</option>
+                    <option>Full Stack Developer</option>
+                    <option>DevOps Engineer</option>
+                    <option>Tester</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label>Country</label></td>
+            <td><input type="text" value="India" readonly></td>
+        </tr>   
+        <tr>
+            <td><label>Present Address</label></td>
+            <td><textarea type="text" rows="7"></textarea></td>
+        </tr>
+    </table>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit"> 
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <button type="reset">Clear</button>
+
+
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
