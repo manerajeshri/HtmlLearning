@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>CSS</title>
+<!-- Adding Google font  -->
+<!-- copy paste link fron site : To embed a font, copy the code into the <head> of your html -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+
+
+   <!-- Applying internal CSS -->
+   <style>
+    /* 1 Name Selector applies to all h3 */
+h3 {color: rgb(13, 234, 234);background-color: black;}
+    /* 2 # ID Selector */
+#idSelector {color:red}
+/*3 . Class Selector== we need to write class in opening tag of that element as class=" " */
+.classSelector{color: green; text-transform: capitalize;}
+/* * Universal selector */
+/* CSS rules to specify families */
+*{font-family: 'Roboto Slab', serif;}
+
+
+   </style>
+</head>
+<body>
+    <h3>3 ways to apply CSS</h3>
+    <ol>
+        <li> Inline CSS </li>
+        <ul>
+            <li>Using style=" " as attribute</li>
+            <li>used to apply unique style to Single Element</li>
+        </ul>
+        
+        <li> Internal CSS</li>
+        <ul>
+            <li>writing style tag under head section</li>
+            <li>Applies to single page</li>
+        </ul>
+        <li> External CSS</li>
+        <ul>
+            <li>writing link under head section</li>
+            <li>we create seperate style sheetfile as a .css</li>
+        </ul>
+    </ol>
+
+    <!-- Applying internal CSS -->
+
+    <h3>Applying internal CSS</h3>
+    <h4>Selectors</h4>
+    <ol>
+        <li> Name Selector == can apply by simply writing element name 
+            e.g.h3,p,a etc.</li>
+        <li id="idSelector"> # ID Selector == we need to pass that id to the element as id= " "</li>
+        <li class="classSelector"> . Class Selector== we need to write class in opening tag of that element as class=" " </li>
+        <li> Group Selector== we can apply style to multiple elements e.g. table,tr,th,td {property: value} </li>
+        <li> * Universal Selector== applies to all doccumnet. * {  }</li>
+    </ol>
+
+    <!-- Colors -->
+    <h3>Color</h3>
+<ul>
+    <li Style="color:green">Using name ==> Style="color:pink"  </li>
+    <li style="color:rgb(13, 46, 130);"> Using rgb ==> Style="color:rgb(205, 255, 208);"  </li>
+    <li style="background-color: #5b5f5b;">Using #rrggbb Hex values ==> style="background-color: #5b5f5b;"</li>
+</ul>
+
+<!-- Text formating properties -->
+<h3>Text formating properties</h3>
+
+
+<p style="line-height: 100px;">line-height: 100px</p>
+<p style="text-indent: 50px;">text-indent: 50px</p>
+<p style="text-decoration: overline;">text-decoration: overline</p>
+<p style="color: rgb(27, 236, 205);">color: rgb(27, 236, 205)</p>
+<p style="font-size: larger;">font-size: larger</p>
+<p style="font-style: oblique;">font-style: oblique</p>
+<p style="font-weight:bolder;">font-weight: bolder</p>
+<p style="text-transform: capitalize;">text-transform: capitalize</p>
+<p style="text-transform: uppercase;">text-transform: uppercase</p>
+<p style="text-align: center;">text-align: center</p>
+<p style="text-align:justify;">text-align: justify</p>
+<p style="letter-spacing: 10px;">letter-spacing: 5px</p>
+<p style="word-spacing: 30px;">word-spacing: 30px word-spacing: 30px</p>
+<p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"> font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"</p>
+<p style=""></p>
+
+<h3>Google font family</h3>
+<ul>
+    <li><a href="https://fonts.google.com/" target="_blank">Google fonts are here</a></li>
+    <Li>Adding Google font==>copy paste link from site : To embed a font, copy the code into the head section of your html </Li>
+    <li>also copy CSS rules to specify families</li>
+</ul>
+
+</body>
+</html>
